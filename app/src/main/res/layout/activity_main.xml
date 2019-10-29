@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="200dp"
+android:layout_width="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardElevation="20dp"
+app:cardUseCompatPadding="true"
+app:cardCornerRadius="5dp"
+app:cardBackgroundColor="@android:color/holo_green_light">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/city"
+    android:scaleType="centerCrop"/>
+
+<TextView
+    android:id="@+id/tV_2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="Tarjeta 2"
+    android:layout_gravity="bottom"
+    android:background="#8C000000"
+    android:textColor="#FFE3E3E3"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
+</androidx.cardview.widget.CardView>
